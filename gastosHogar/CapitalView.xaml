@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="gastos_hogar.CapitalView"
+             Title="Registrar Saldo">
+    <VerticalStackLayout Spacing="2" Margin="30">
+
+
+        <Entry x:Name="txtCapital"
+               Placeholder="ingrese capital"
+               ClearButtonVisibility="WhileEditing" Keyboard="Numeric" CharacterSpacing="4" MaxLength="10"/>
+
+        <StackLayout Margin="20" Spacing="10">
+           
+           <Button x:Name="btnModificar" BackgroundColor="#F5BC11"  Text="Modificar"/>
+            <Button x:Name="btnNuevo" Text="Nuevo" BackgroundColor="#000000"/>
+       <Button x:Name="btnGuardar" Text="Guardar"/>
+        </StackLayout>
+         
+        
+    </VerticalStackLayout>
+</ContentPage>
+
